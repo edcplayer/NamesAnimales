@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#E91E63"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8BC34A"
+                android:text="                 Preciona las imagenes"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/purple_200"
+                android:contentDescription="@string/IB"
+                android:onClick="mensajeconejo"
+                app:srcCompat="@drawable/conejo" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/design_default_color_secondary"
+                android:contentDescription="@string/IB"
+                android:onClick="mensajegato"
+                app:srcCompat="@drawable/gato" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/material_dynamic_neutral_variant30"
+                android:contentDescription="@string/IB"
+                android:onClick="mensajeleon"
+                app:srcCompat="@drawable/leon" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/teal_700"
+                android:contentDescription="@string/IB"
+                android:onClick="mensajeoso"
+                app:srcCompat="@drawable/oso" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/system_accent1_400"
+                android:contentDescription="@string/IB"
+                android:onClick="mensajeperro"
+                app:srcCompat="@drawable/perro" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/system_accent3_100"
+                android:contentDescription="@string/IB"
+                android:onClick="mensajeserpiente"
+                app:srcCompat="@drawable/snake" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/material_dynamic_secondary10"
+                android:contentDescription="@string/IB"
+                android:onClick="mensajetigre"
+                app:srcCompat="@drawable/tigre" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/design_default_color_error"
+                android:contentDescription="@string/IB"
+                android:onClick="mensajeelefante"
+                app:srcCompat="@drawable/elefante" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/design_default_color_primary"
+                android:contentDescription="@string/IB"
+                android:onClick="mensajezorro"
+                app:srcCompat="@drawable/zorro" />
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/material_dynamic_primary60"
+                android:contentDescription="@string/IB"
+                android:onClick="mensajetortuga"
+                app:srcCompat="@drawable/tortuga" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
